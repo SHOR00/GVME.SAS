@@ -35,6 +35,14 @@
   font-family: "Poppins", sans-serif;
 }
 
+.efecto {
+  background-color: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  padding: 25px 0;
+  animation: fadeInDown 1s forwards;
+  position: sticky;
+  top: .1rem;
+}
 /* texto ingeniería en montajes elécticos */
 
 .cabecera .spanUno {
@@ -97,10 +105,9 @@
   border: solid 2px #ffffff;
 }
 
-
 /* seccion uno */
 
-.seccionUno{
+.seccionUno {
   display: flex;
   width: 100vw;
   height: 70vh;
@@ -108,34 +115,32 @@
   align-items: center;
 }
 
-
-.seccionUno .divSeccionUno{
+.seccionUno .divSeccionUno {
   width: 500px;
   height: 537px;
 }
 
-
-.seccionUno .divSeccionUno .divSUno{
+.seccionUno .divSeccionUno .divSUno {
   display: flex;
   margin: 1.5rem;
 }
 
-.seccionUno .divSeccionUno .divSUno h3{
+.seccionUno .divSeccionUno .divSUno h3 {
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 1rem;
 }
 
-.seccionUno .divSeccionUno .divSUno p{
+.seccionUno .divSeccionUno .divSUno p {
   font-family: "Poppins", sans-serif;
   text-align: justify;
   color: #666666;
 }
-.seccionUno .divSeccionUno .divSUno p::first-letter{
+.seccionUno .divSeccionUno .divSUno p::first-letter {
   text-transform: uppercase;
 }
-.seccionUno .divSeccionUno div span{
+.seccionUno .divSeccionUno div span {
   border: solid 2px #000000;
   border-radius: 100%;
   padding: 1rem 1.5rem;
