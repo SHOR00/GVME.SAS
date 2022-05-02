@@ -40,8 +40,8 @@
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
   padding: 25px 0;
   animation: fadeInDown 1s forwards;
-  position: sticky;
-  top: .1rem;
+  position: fixed;
+  top: 0.1rem;
 }
 /* texto ingeniería en montajes elécticos */
 
@@ -150,4 +150,150 @@
   font-family: "Poppins", sans-serif;
   font-weight: 800;
   font-size: 1.5rem;
+}
+
+/* seccion dos */
+
+.seccionDos {
+  width: 100vw;
+  height: 80vh;
+  background-image: url("../img/instalaciones.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  position: sticky;
+  top: 1px;
+}
+
+.seccionDos div {
+  width: 540px;
+  height: 349px;
+  background-color: #ffffff;
+  position: relative;
+  top: 15%;
+  left: 22%;
+}
+
+.seccionDos div h2 {
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif;
+  padding-top: 5rem;
+  padding-left: 1.5rem;
+  text-transform: capitalize;
+}
+
+.seccionDos div p {
+  font-family: "Poppins", sans-serif;
+  padding: 1.5rem;
+  color: #666666;
+}
+
+.seccionDos div p span {
+  color: #111aaa;
+}
+
+/* seccion tres */
+
+.seccionTres {
+  width: 100vw;
+  height: 600px;
+  background-color: #ffffff;
+}
+
+.seccionTres .divSTres-uno {
+  width: 40%;
+  height: 200px;
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+
+.seccionTres .divSTres-uno h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.seccionTres .divSTres-uno p {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 0 2rem;
+  color: #666666;
+}
+
+.seccionTres .divSTres-contenedor {
+  width: 60%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.seccionTres .divSTres-dos {
+  width: 20rem;
+  height: 15rem;
+  display: inline-block;
+}
+
+.seccionTres .divSTres-dos h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+
+.seccionTres .divSTres-dos p {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  color: #666666;
+}
+
+.seccionTres .divSTres-tres {
+  width: 20rem;
+  height: 15rem;
+  display: inline-block;
+}
+
+.seccionTres .divSTres-tres h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+
+.seccionTres .divSTres-tres p {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  color: #666666;
+}
+
+.seccionTres .divSTres-cuatro {
+  width: 20rem;
+  height: 15rem;
+  display: inline-block;
+}
+
+.seccionTres .divSTres-cuatro h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+
+.seccionTres .divSTres-cuatro p {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  color: #666666;
+}
+
+/* seccion cuatro */
+.seccionCuatro {
+  width: 100vw;
+  height: 600px;
+  background-color: #f4f4f4;
 }
