@@ -224,6 +224,14 @@
   color: #666666;
 }
 
+.seccionTres .divSTres-uno span {
+  background-color: #111aaa;
+  width: 4rem;
+  height: 5px;
+  display: block;
+  margin: 2rem auto;
+}
+
 .seccionTres .divSTres-contenedor {
   width: 60%;
   margin: 2rem auto;
@@ -294,6 +302,126 @@
 /* seccion cuatro */
 .seccionCuatro {
   width: 100vw;
-  height: 600px;
   background-color: #f4f4f4;
+}
+
+.seccionCuatro .divSCuatro-uno {
+  width: 40%;
+  height: 200px;
+  margin: 0 auto;
+  /* padding-top: 3rem; */
+}
+
+.seccionCuatro .divSCuatro-uno h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin: 0;
+  padding-top: 3rem;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.seccionCuatro .divSCuatro-uno p {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 0 2rem;
+  color: #666666;
+}
+
+.seccionCuatro .divSCuatro-uno span {
+  background-color: #111aaa;
+  width: 4rem;
+  height: 5px;
+  display: block;
+  margin: 2rem auto;
+}
+
+.seccionCuatro .divSCuatro-grid {
+  display: grid;
+  width: 80%;
+  margin: 0 auto;
+  padding: 5rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 300px;
+  gap: 1.5rem;
+}
+
+.seccionCuatro .divSCuatro-grid .gridItem .grid-item {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.seccionCuatro .divSCuatro-grid .gridItem:nth-child(1) {
+  grid-row-start: span 1;
+}
+
+.seccionCuatro .divSCuatro-grid .gridItem:nth-child(2) {
+  grid-row-start: span 2;
+}
+
+.seccionCuatro .divSCuatro-grid .gridItem:nth-child(3) {
+  grid-row-start: span 3;
+  grid-column-start: span 2;
+}
+
+.seccionCuatro .divSCuatro-grid .gridItem:nth-child(4) {
+  grid-row-start: span 2;
+}
+
+.seccionCuatro .divSCuatro-grid .gridItem:nth-child(5) {
+  grid-row-start: span 1;
+}
+
+/* seccin cinco */
+
+.seccionCinco {
+  width: 100vw;
+  height: 100vh;
+  margin-top: 0;
+  background-color: #ffffff;
+}
+
+.seccionCinco .divSCinco-uno {
+  width: 40%;
+  height: 200px;
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+
+.seccionCinco .divSCinco-uno h2 {
+  font-size: 2rem;
+  padding: 5rem;
+  margin: 0;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.seccionCinco .divSCinco-uno span{
+  background-color: #111aaa;
+  width: 4rem;
+  height: 5px;
+  display: block;
+  margin: 2rem auto;
+}
+
+
+.seccionCinco .divSCinco-grid {
+  display: grid;
+  width: 65%;
+  margin: 3rem auto;
+  padding: 3rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 100px;
+  gap: 1rem;
+}
+
+.seccionCinco .divSCinco-grid .grid-item{
+  width: 100px;
+  height: 100px;
 }
