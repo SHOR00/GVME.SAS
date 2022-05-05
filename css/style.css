@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+*{
+  font-family: "Poppins", sans-serif;
+}
 
 .cabecera {
   width: 100vw;
@@ -458,6 +461,7 @@
 .seccionSeis .divMedio .mail{
   display: block;
   text-decoration: none;
+  font-family: "Poppins", sans-serif;
 }
 
 .seccionSeis .divMedio span{
@@ -481,6 +485,7 @@ footer p{
   margin: 0 auto;
   padding: 2rem;
   color: #7b7b7b;
+  font-family: "Poppins", sans-serif;
 }
 
 footer .fa-whatsapp{
