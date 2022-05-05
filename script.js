@@ -12,7 +12,7 @@ let ticking = false;
 // funcion afregar efecto en navbar
 function agregarEfecto(scroll_pos) {
   efectoNavbar.classList.add("efecto");
-  logoNavbar.src = "../img/logo-brand.png";
+  logoNavbar.src = "img/logo-brand.png";
   enlace.forEach((element) => {
     for (let index = 0; index < enlace.length; index++) {
       element.style.color = "#000000";
@@ -23,7 +23,7 @@ function agregarEfecto(scroll_pos) {
 // funcion quitar efecto en navbar
 function quitarEfecto(scroll_pos) {
   efectoNavbar.classList.remove("efecto");
-  logoNavbar.src = "../img/logo-white.png";
+  logoNavbar.src = "img/logo-white.png";
   enlace.forEach((element) => {
     for (let index = 0; index < enlace.length; index++) {
       element.style.color = "#ffffff";
