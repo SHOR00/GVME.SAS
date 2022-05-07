@@ -16,8 +16,12 @@
 .navbar {
   display: flex;
   width: 100vw;
-  padding-top: 5rem;
+  
   justify-content: space-around;
+  transition: 1s all;
+}
+.navbar::after{
+  padding-top: 5rem;
 }
 
 .navbar ul {
@@ -46,6 +50,7 @@
   position: fixed;
   top: 0.1rem;
 }
+
 /* texto ingeniería en montajes elécticos */
 
 .cabecera .spanUno {
@@ -122,6 +127,7 @@
   width: 500px;
   height: 537px;
 }
+
 
 .seccionUno .divSeccionUno .divSUno {
   display: flex;
@@ -303,6 +309,7 @@
 }
 
 /* seccion cuatro */
+
 .seccionCuatro {
   width: 100vw;
   background-color: #f4f4f4;
@@ -312,7 +319,7 @@
   width: 40%;
   height: 200px;
   margin: 0 auto;
-  /* padding-top: 3rem; */
+  padding-top: 3rem;
 }
 
 .seccionCuatro .divSCuatro-uno h2 {
@@ -419,7 +426,7 @@
   width: 65%;
   margin: 3rem auto;
   padding: 3rem;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: 100px;
   gap: 1rem;
 }
@@ -495,3 +502,165 @@ footer .fa-whatsapp{
   right: 5rem;
   bottom: 1rem;
 }
+
+
+/*  adaptacion movil  */
+
+@media screen and (min-width: 450px){
+  
+  
+  .navbar{
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+   .logoNavbar{
+     width:  4rem;
+     margin: 0 auto;
+   }
+   .navbar ul{
+     width: 100%;
+     margin: 0 auto;
+     padding: 0;
+   }
+   
+  .navbar ul li a{
+    font-size: .5rem;
+  }
+  .efecto{
+    width: 100%;
+    height: 5rem;
+    padding:0;
+    margin: 0;
+  }
+  .cabecera{
+    margin: 0;
+    padding: 0;
+  }
+  .cabecera .spanUno {
+      width: 100%;
+      display: block;
+      margin: 0;
+      padding-top:5rem;
+    }
+    
+
+  .cabecera .spanUno p{
+      width: 70%;
+      margin: 0 auto;
+      padding: 0;
+      font-size: 2rem;
+    }
+    
+    
+  .cabecera .spanDos  {
+      width: 100%;
+      display: block;
+      margin: 0;
+      padding: 0;
+    }
+    
+  .cabecera .spanDos p{
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+  }
+    
+   .seccionUno{
+     display: block;
+     height: auto;
+   } 
+   
+  .seccionUno img{
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+  }
+  
+  .seccionUno .divSeccionUno{
+    width: 100%;
+    font-size: 1rem;
+  }
+  
+  .seccionDos div{
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  
+  .seccionTres{
+    height: auto;
+  }
+  
+  .seccionTres .divSTres-uno{
+    display: block;
+    width: 100%;
+  }
+  
+  .seccionTres .divSTres-contenedor{
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .seccionCuatro{
+    width: 100%;
+    height: auto;
+  }
+  
+  .seccionCuatro .divSCuatro-uno{
+    display: block;
+    width: 90%;
+    height: auto;
+  }
+  
+  .seccionCuatro .divSCuatro-grid {
+   display: block;
+   width: 90%;
+   margin: 0 auto;
+   padding: 0;
+  }
+
+  .seccionCinco{
+   height: auto;
+  }
+  
+  .seccionCinco .divSCinco-uno{
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 90%;
+  }
+    
+  .seccionCinco .divSCinco-grid {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 5rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 100px;
+  gap: 1rem;
+  }
+
+
+  
+  .seccionSeis .divImgFooter{
+    width: 100%;
+  }
+  .seccionSeis .divImgFooter img{
+    width: 30%;
+  }
+  
+  footer{
+    width: 100%;
+  }
+  footer p{
+    width: 80%;
+  }
+  footer .fa-whatsapp{
+    font-size: 4rem;
+    bottom: 1rem;
+    right: 1rem;
+  }
+}
+
