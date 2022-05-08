@@ -3,6 +3,8 @@
 let efectoNavbar = document.querySelector(".navbar");
 let enlace = document.querySelectorAll(".enlaceNavbar");
 let logoNavbar = document.querySelector(".logoNavbar");
+let ul = document.querySelector('.ul');
+let boton = document.querySelector('.boton');
 
 let posicionScroll = 0;
 let ticking = false;
@@ -49,3 +51,11 @@ window.addEventListener("scroll", function (e) {
     });
   }
 });
+
+
+let efectoBoton = function (){
+    ul.classList.toggle('ver');
+    efectoNavbar.classList.toggle('navbarCorto')
+}
+
+boton.addEventListener('click', efectoBoton);
