@@ -16,12 +16,15 @@
 .navbar {
   display: flex;
   width: 100vw;
-  
   justify-content: space-around;
   transition: 1s all;
 }
 .navbar::after{
-  padding-top: 5rem;
+  padding-top: 1rem;
+}
+
+.navbar .boton button .fa-bars{
+  font-size: 2rem;
 }
 
 .navbar ul {
@@ -515,22 +518,44 @@ footer .fa-whatsapp{
     margin: 0;
     padding-top: 2rem;
   }
+  
+  
+  .navbarCorto{
+    height: 3rem;
+  }
+  
+  .navbar div{
+    display: flex;
+    justify-content: space-around;
+  }
    .logoNavbar{
-     width:  4rem;
-     margin: 0 auto;
+     width:  5rem;
+     margin: 0;
+     display: inline-block;
    }
    .navbar ul{
-     width: 90%;
+     width: 100%;
      margin: 0 auto;
      padding: 0;
+     display:block;
    }
    
+   .ver{
+     opacity: 0;
+   }
+   
+   
+   .navbar ul li{
+     width: 80%;
+     margin: 1rem auto;
+     text-align: center;
+     }
+   
   .navbar ul li a{
-    font-size: .5rem;
-  }
+    font-size: 1rem;
+   }
   .efecto{
     width: 100%;
-    height: 5rem;
     padding:0;
     margin: 0;
   }
