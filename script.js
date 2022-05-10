@@ -3,11 +3,9 @@
 let efectoNavbar = document.querySelector(".navbar");
 let enlace = document.querySelectorAll(".enlaceNavbar");
 let logoNavbar = document.querySelector(".logoNavbar");
-let ul = document.querySelector('.ul');
-let boton = document.querySelector('.boton');
-let fa = document.querySelector('.fa-bars');
-
-
+let ul = document.querySelector(".ul");
+let boton = document.querySelector(".boton");
+let fa = document.querySelector(".fa-bars");
 
 let posicionScroll = 0;
 let ticking = false;
@@ -21,7 +19,7 @@ function agregarEfecto(scroll_pos) {
   enlace.forEach((element) => {
     for (let index = 0; index < enlace.length; index++) {
       element.style.color = "#000000";
-      fa.style.color = '#000000'
+      fa.style.color = "#000000";
     }
   });
 }
@@ -33,7 +31,7 @@ function quitarEfecto(scroll_pos) {
   enlace.forEach((element) => {
     for (let index = 0; index < enlace.length; index++) {
       element.style.color = "#ffffff";
-      fa.style.color = '#ffffff'
+      fa.style.color = "#ffffff";
     }
   });
 }
@@ -57,10 +55,9 @@ window.addEventListener("scroll", function (e) {
   }
 });
 
+let efectoBoton = function () {
+  ul.classList.toggle("ver");
+  efectoNavbar.classList.toggle("navbarCorto");
+};
 
-let efectoBoton = function (){
-    ul.classList.toggle('ver');
-    efectoNavbar.classList.toggle('navbarCorto')
-}
-
-boton.addEventListener('click', efectoBoton);
+boton.addEventListener("click", efectoBoton);

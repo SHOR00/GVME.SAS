@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
-*{
+* {
   font-family: "Poppins", sans-serif;
 }
 
@@ -19,15 +19,15 @@
   justify-content: space-around;
   transition: 1s all;
 }
-.navbar::after{
+.navbar::after {
   padding-top: 1rem;
 }
 
-
-.navbar .boton .fa-bars{
+.navbar .boton .fa-bars {
   font-size: 2rem;
-  padding-top: .3rem;
+  padding-top: 0.3rem;
   color: #ffffff;
+  visibility: hidden;
 }
 
 .navbar ul {
@@ -133,7 +133,6 @@
   width: 500px;
   height: 537px;
 }
-
 
 .seccionUno .divSeccionUno .divSUno {
   display: flex;
@@ -418,14 +417,13 @@
   text-align: center;
 }
 
-.seccionCinco .divSCinco-uno span{
+.seccionCinco .divSCinco-uno span {
   background-color: #111aaa;
   width: 4rem;
   height: 5px;
   display: block;
   margin: 2rem auto;
 }
-
 
 .seccionCinco .divSCinco-grid {
   display: grid;
@@ -437,62 +435,59 @@
   gap: 1rem;
 }
 
-.seccionCinco .divSCinco-grid .grid-item{
+.seccionCinco .divSCinco-grid .grid-item {
   width: 100px;
   height: 100px;
 }
 
-
 /* seccion seis */
 
-.seccionSeis{
+.seccionSeis {
   background-color: #ffffff;
   width: 100%;
   height: auto;
 }
 
-.seccionSeis .mapa{
+.seccionSeis .mapa {
   width: 100%;
 }
 
-.seccionSeis .divImgFooter{
+.seccionSeis .divImgFooter {
   display: flex;
   width: 1100px;
   margin: 0 auto;
 }
-.seccionSeis .divMedio{
+.seccionSeis .divMedio {
   width: 400px;
   display: flex;
   align-items: center;
 }
 
-.seccionSeis .divMedio div{
+.seccionSeis .divMedio div {
   width: 80%;
   margin: 0 auto;
 }
 
-.seccionSeis .divMedio .mail{
+.seccionSeis .divMedio .mail {
   display: block;
   text-decoration: none;
   font-family: "Poppins", sans-serif;
 }
 
-.seccionSeis .divMedio span{
+.seccionSeis .divMedio span {
   margin: 1.5rem;
 }
 
-
-
 /* footer */
 
-footer{
+footer {
   width: 100%;
   height: 100px;
   margin-top: 1rem;
   background-color: #333333;
 }
 
-footer p{
+footer p {
   width: 500px;
   display: block;
   margin: 0 auto;
@@ -501,7 +496,7 @@ footer p{
   font-family: "Poppins", sans-serif;
 }
 
-footer .fa-whatsapp{
+footer .fa-whatsapp {
   font-size: 5rem;
   color: #077923;
   position: fixed;
@@ -509,186 +504,180 @@ footer .fa-whatsapp{
   bottom: 1rem;
 }
 
-
 /*  adaptacion movil  */
 
-@media screen and (min-width: 450px){
-  
-  
-  .navbar{
+@media screen and (max-width: 990px) {
+  .navbar {
     width: 100%;
     display: block;
     margin: 0;
     padding-top: 2rem;
   }
-  
-  
-  .navbarCorto{
+
+  .navbar .boton .fa-bars {
+    visibility: visible;
+  }
+
+  .navbarCorto {
     height: 3rem;
   }
-  
-  .navbar div{
+
+  .navbar div {
     display: flex;
     justify-content: space-around;
   }
-   .logoNavbar{
-     width:  5rem;
-     margin: 0;
-     display: inline-block;
-   }
-   .navbar ul{
-     width: 100%;
-     margin: 0 auto;
-     padding: 0;
-     display:block;
-   }
-   
-   .ver{
-     opacity: 0;
-   }
-   
-   
-   .navbar ul li{
-     width: 80%;
-     margin: 1rem auto;
-     text-align: center;
-     }
-   
-  .navbar ul li a{
-    font-size: 1rem;
-   }
-  .efecto{
+  .logoNavbar {
+    width: 5rem;
+    margin: 0;
+    display: inline-block;
+  }
+  .navbar ul {
     width: 100%;
-    padding:0;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+  }
+
+  .ver {
+    opacity: 0;
+  }
+
+  .navbar ul li {
+    width: 80%;
+    margin: 1rem auto;
+    text-align: center;
+  }
+
+  .navbar ul li a {
+    font-size: 1rem;
+  }
+  .efecto {
+    width: 100%;
+    padding: 0;
     margin: 0;
   }
-  .cabecera{
+  .cabecera {
     margin: 0;
     padding: 0;
   }
   .cabecera .spanUno {
-      width: 100%;
-      display: block;
-      margin: 0;
-      padding-top:5rem;
-    }
-    
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding-top: 5rem;
+  }
 
-  .cabecera .spanUno p{
-      width: 70%;
-      margin: 0 auto;
-      padding: 0;
-      font-size: 2rem;
-    }
-    
-    
-  .cabecera .spanDos  {
-      width: 100%;
-      display: block;
-      margin: 0;
-      padding: 0;
-    }
-    
-  .cabecera .spanDos p{
+  .cabecera .spanUno p {
+    width: 70%;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 2rem;
+  }
+
+  .cabecera .spanDos {
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .cabecera .spanDos p {
     width: 80%;
     margin: 0 auto;
     padding: 0;
   }
-    
-  .seccionUno{
-     display: block;
-     height: auto;
-   } 
-   
-  .seccionUno img{
+
+  .seccionUno {
+    display: block;
+    height: auto;
+  }
+
+  .seccionUno img {
     width: 60%;
     display: block;
     margin: 0 auto;
     padding: 0;
   }
-  
-  .seccionUno .divSeccionUno{
+
+  .seccionUno .divSeccionUno {
     width: 100%;
     font-size: 1rem;
   }
-  
-  .seccionDos div{
+
+  .seccionDos div {
     width: 100%;
     top: 0;
     left: 0;
   }
-  
-  .seccionTres{
+
+  .seccionTres {
     height: auto;
   }
-  
-  .seccionTres .divSTres-uno{
+
+  .seccionTres .divSTres-uno {
     display: block;
     width: 100%;
   }
-  
-  .seccionTres .divSTres-contenedor{
+
+  .seccionTres .divSTres-contenedor {
     display: block;
     margin: 0 auto;
   }
-  
-  .seccionCuatro{
+
+  .seccionCuatro {
     width: 100%;
     height: auto;
   }
-  
-  .seccionCuatro .divSCuatro-uno{
+
+  .seccionCuatro .divSCuatro-uno {
     display: block;
     width: 90%;
     height: auto;
   }
-  
+
   .seccionCuatro .divSCuatro-grid {
-   display: block;
-   width: 90%;
-   margin: 0 auto;
-   padding: 0;
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
   }
 
-  .seccionCinco{
-   height: auto;
+  .seccionCinco {
+    height: auto;
   }
-  
-  .seccionCinco .divSCinco-uno{
+
+  .seccionCinco .divSCinco-uno {
     margin: 0 auto;
     padding: 0 auto;
     width: 90%;
   }
-    
+
   .seccionCinco .divSCinco-grid {
-  width: 80%;
-  height: auto;
-  margin: 0 auto;
-  padding-top: 5rem;
-  grid-template-columns: repeat(2, 1fr);
-  grid-auto-rows: 100px;
-  gap: 1rem;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 5rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 100px;
+    gap: 1rem;
   }
 
-
-  
-  .seccionSeis .divImgFooter{
+  .seccionSeis .divImgFooter {
     width: 100%;
   }
-  .seccionSeis .divImgFooter img{
+  .seccionSeis .divImgFooter img {
     width: 30%;
   }
-  
-  footer{
+
+  footer {
     width: 100%;
   }
-  footer p{
+  footer p {
     width: 80%;
   }
-  footer .fa-whatsapp{
+  footer .fa-whatsapp {
     font-size: 4rem;
     bottom: 1rem;
     right: 1rem;
   }
 }
-
