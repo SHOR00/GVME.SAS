@@ -23,8 +23,11 @@
   padding-top: 1rem;
 }
 
-.navbar .boton button .fa-bars{
+
+.navbar .boton .fa-bars{
   font-size: 2rem;
+  padding-top: .3rem;
+  color: #ffffff;
 }
 
 .navbar ul {
@@ -592,7 +595,7 @@ footer .fa-whatsapp{
     padding: 0;
   }
     
-   .seccionUno{
+  .seccionUno{
      display: block;
      height: auto;
    } 
